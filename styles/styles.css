@@ -2,7 +2,7 @@
 .box {
     margin: 1rem;
     padding: 1rem;
-    background-color: lightyellow;
+    background-color: lightgoldenrodyellow;
     color: black;
     border: 1px solid rgba(0, 1, 2, .3);
 }
@@ -22,7 +22,7 @@
 }
 
 nav {
-    background-color:rgb(200, 206, 13);
+    background-color:lightgoldenrodyellow;
     padding: 10px;
 }
 
@@ -33,7 +33,7 @@ nav a {
 }
 
 h1{
-    color: rgb(196, 193, 21);
+    color: yellow;
 }
 
 img {
