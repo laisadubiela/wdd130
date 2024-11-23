@@ -37,7 +37,7 @@ a {
 
 }
 
-.hero img {
+.hero-img {
     display: block;
     width: 100%;
     height:auto;
@@ -47,35 +47,43 @@ a {
 h1 {
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 0px;
+    right: 0px;
     color: white;
     background-color: #2c3e4d83;
     font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
 
 }
 
 article {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 150px;
+    width: 750px;
+    left: 0px;
+    right: 0px;
     background: rgba(79, 169, 147, 0.5);
     color: white;
     padding: 20px;
     text-align: center;
-    display: flex;
-    align-items: center;
+    margin: auto;
+    
 }
 
 article p {
     margin: 0px;
     line-height: 1.5;
     max-width: 300px;
+    text-align: left;
+    float: left;
 }
 
 article img {
-    width: 80px;
+    width: 200px;
     height: auto;
     float: right;
+    
 }
 
 footer {
