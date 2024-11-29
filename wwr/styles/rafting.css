@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    color: #6D9DC5;
+    color:#31493C;
     font-family: 'DM serif', ital;
     text-align: center;
 }
@@ -84,7 +84,7 @@ article {
     width: 1100px;
     left: 0px;
     right: 0px;
-    background: rgba(79, 169, 147, 0.5);
+    background: #498172b6;
     color: white;
     padding: 20px;
     text-align: center;
@@ -102,7 +102,7 @@ article p {
 
 article img {
     width: 200px;
-    height: auto;
+    height: 200px;
     float: right;
     
 }
