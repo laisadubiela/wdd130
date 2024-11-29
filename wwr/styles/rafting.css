@@ -17,7 +17,7 @@ header img {
 }
 
 body {
-    max-width: 840px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -81,7 +81,7 @@ h1 {
 article {
     position: absolute;
     top: 150px;
-    width: 750px;
+    width: 1100px;
     left: 0px;
     right: 0px;
     background: rgba(79, 169, 147, 0.5);
@@ -152,6 +152,7 @@ article img {
     color: #31493C;
     font-family: 'roboto', ital;
     background-color: #b3e3c9;
+
     
 }
 .h2-adventure {
