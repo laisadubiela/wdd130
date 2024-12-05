@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbe5ffba;
+}
+
+h1 {
+    font-family: "gill sans";
+    font-size: 20px;
+    width: 500px;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    color: #5a0b69;
+}
+
+header {
+    margin: 0 auto;
+}
+
+form {
+    width: 650px;
+    margin: o auto;
+    padding: 2px;
+    border: 1px solid rgb(245, 220, 245 / 0.1);
+    border-radius: 2px;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 2px;
+    margin: 2px;
+    border: 1px solid;
+    padding: 1px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1px;
+
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 1px;
+}
+
+textarea {
+  font-family: "delius swash caps";
+  font-size: 100%;
+  width: 200px;
+  padding: 2px;
+  margin: 2px;
+  background-color: #eaa3f85d;
+  text-align: center;
+
+}
+
+select {
+  font-family: "delius swash caps";
+  font-size: 100%;
+  width: 300px;
+  padding: 2px;
+  margin: 2px;
+  color: #761789;
+  background-color: #eaa3f85d;
+  border-radius: 5px;
+}
+
+legend {
+    color: rgb(197, 38, 218);
+    padding: 5px;
+    font-family: "delius unicase";
+}
+
+input {
+    font-family: "delius swash caps";
+    font-size: 100%;
+    width: 200px;
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+    background-color: #eaa3f85d;
+}
+
+button {
+    font-family: "delius swash caps";
+    font-size: 100%;
+    width: 200px;
+    padding: 2px;
+    margin: 20px;
+    box-sizing: border-box;
+    color: rgb(82, 23, 137);
+    background-color: rgb(245, 220, 245);
+    border-color: blueviolet;
+    border-radius: 20px;
+}
+
+label {
+    color: purple;
+    margin: 5px;
+    display: grid;
+    font-family: "delius swash caps";
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center; 
+    border-top: 1px solid;
+}
+
+footer p {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    left: 0;
+    right: 0;
+    color: #761789;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
