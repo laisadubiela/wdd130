@@ -8,6 +8,11 @@ header {
     
 }
 
+label {
+    padding: 10px;
+    color: #31493C;
+    font-family: 'permanent marker';
+}
 
 header img {
     width: 90px;
@@ -22,50 +27,8 @@ body {
 }
 
 h1 {
-    color: #0F0326;
+
     font-family: 'permanent marker';
-}
-
-h2 {
-    color:#31493C;
-    font-family: 'DM serif', ital;
-    text-align: center;
-}
-
-h3, h4, h5, h6 {
-    color: #31493C;
-    font-family: 'roboto', ital;
-}
-
-
-.hero {
-    position: relative;
-    background-color: #6D9DC5;
-
-}
-
-.hero-img {
-    display: block;
-    width: 100%;
-    height:auto;
-
-}
-
-.grid-nav {
-    display: flex;
-}
-
-.grid-nav a {
-    color: #31493C;
-    background-color: rgb(167, 234, 167);
-    text-decoration: none;
-    padding: 10px 30px 10px 30px;
-    border: .5px solid black;
-    width: 80px;
-}
-
-
-h1 {
     position: absolute;
     top: 20px;
     left: 0px;
@@ -78,7 +41,102 @@ h1 {
 
 }
 
-article {
+h2 {
+    color:#31493C;
+    font-family: 'DM serif', ital;
+    text-align: center;
+}
+
+h3, h4, h5, h6 {
+    color: #31493C;
+    font-family: 'roboto', ital;
+    text-align: center;
+}
+
+
+.hero {
+    position: relative;
+
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+    height:auto;
+
+}
+
+.herohome {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    top: 100px;
+    color: black;
+    }
+
+.hero-imghome {
+    display: block;
+    width: 100%;
+    height:auto;
+
+}
+
+.grid-nav {
+    display: flex;
+    width: 100%;
+}
+
+.grid-nav a {
+    color: #31493C;
+    background-color: rgb(167, 234, 167);
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border: .5px solid black;
+    width: 80px;
+}
+
+.trip {
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #31493C;
+}
+
+th {
+    font-family: 'roboto';
+    background-color: #b3e3c9;
+    color: #31493C;
+
+}
+
+td {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.trip a {
+    color: #31493C;
+    background-color: rgb(167, 234, 167);
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border: .5px solid black;
+    width: 80px;
+
+}
+
+.fieldsethome {
+    margin-top: 20px;
+}
+
+.article-about {
     position: absolute;
     top: 150px;
     width: 1100px;
@@ -88,8 +146,17 @@ article {
     color: white;
     padding: 20px;
     text-align: center;
-    margin: auto;
-    
+    margin: auto;   
+}
+
+.article-home {
+    width: 450px;
+    height: 200px;
+    margin: 20px;
+    display: grid;
+    padding: 10px;
+    justify-items: center;
+    background-color: #d1f5e2;
 }
 
 article p {
@@ -152,7 +219,6 @@ article img {
     color: #31493C;
     font-family: 'roboto', ital;
     background-color: #b3e3c9;
-
     
 }
 
@@ -222,12 +288,13 @@ button {
     font-size: 100%;
     width: 200px;
     padding: 2px;
-    margin: 20px;
+    margin-left: 90px;
     box-sizing: border-box;
     color: #31493C;
     background-color: #d0f1dfcf;
     border-color: #31493C;
     border-radius: 20px;
+
 }
 
 .message {
